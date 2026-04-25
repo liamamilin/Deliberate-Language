@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>17&nbsp; Language and Decision – Deliberate-Language</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./cp17.html" rel="next">
+<link href="./p6.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a06763021a52c43c40a351ac8b799b8f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-492b9624ff8d43c47110ce1ea27a1156.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./p6.html">Part VI — Language, Decision, and Influence</a></li><li class="breadcrumb-item"><a href="./cp16.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Language and Decision</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Deliberate-Language</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./p1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part I — Problems, Goals, and Decision Space</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Framing the Problem</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Situation of Speech</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Meaning Beyond the Sentence</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./p2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part II — Speech Action and Intention</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Informing, Asking, and Directing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Refusing, Promising, and Committing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Chapter 6 — Positioning Through Language</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./p3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part III — Audience and Interpretation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Chapter 7 — The Listener as a Model</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Misunderstanding and Divergent Interpretation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Adapting Language to Audience</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./p4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part IV — Framing and Social Meaning</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Framing Reality</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Focus, Emphasis, and Omission</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tone, Force, and Social Signal</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./p5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part V — Coordination and Negotiation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Language in Cooperation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Language in Conflict and Negotiation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Chapter 15 — Repair, Clarification, and Alignment</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./p6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part VI — Language, Decision, and Influence</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp16.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Language and Decision</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Language and Influence</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cp18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Language as Social Technology</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#decisions-are-made-through-language" id="toc-decisions-are-made-through-language" class="nav-link active" data-scroll-target="#decisions-are-made-through-language"><span class="header-section-number">17.1</span> Decisions Are Made Through Language</a></li>
+  <li><a href="#from-situation-to-decision" id="toc-from-situation-to-decision" class="nav-link" data-scroll-target="#from-situation-to-decision"><span class="header-section-number">17.2</span> From Situation to Decision</a></li>
+  <li><a href="#the-decision-question" id="toc-the-decision-question" class="nav-link" data-scroll-target="#the-decision-question"><span class="header-section-number">17.3</span> The Decision Question</a></li>
+  <li><a href="#options-are-constructed" id="toc-options-are-constructed" class="nav-link" data-scroll-target="#options-are-constructed"><span class="header-section-number">17.4</span> Options Are Constructed</a></li>
+  <li><a href="#naming-options" id="toc-naming-options" class="nav-link" data-scroll-target="#naming-options"><span class="header-section-number">17.5</span> Naming Options</a></li>
+  <li><a href="#false-binaries" id="toc-false-binaries" class="nav-link" data-scroll-target="#false-binaries"><span class="header-section-number">17.6</span> False Binaries</a></li>
+  <li><a href="#criteria" id="toc-criteria" class="nav-link" data-scroll-target="#criteria"><span class="header-section-number">17.7</span> Criteria</a></li>
+  <li><a href="#criteria-conflict" id="toc-criteria-conflict" class="nav-link" data-scroll-target="#criteria-conflict"><span class="header-section-number">17.8</span> Criteria Conflict</a></li>
+  <li><a href="#trade-off-framing" id="toc-trade-off-framing" class="nav-link" data-scroll-target="#trade-off-framing"><span class="header-section-number">17.9</span> Trade-Off Framing</a></li>
+  <li><a href="#hidden-trade-offs" id="toc-hidden-trade-offs" class="nav-link" data-scroll-target="#hidden-trade-offs"><span class="header-section-number">17.10</span> Hidden Trade-Offs</a></li>
+  <li><a href="#recommendation" id="toc-recommendation" class="nav-link" data-scroll-target="#recommendation"><span class="header-section-number">17.11</span> Recommendation</a></li>
+  <li><a href="#weak-recommendations" id="toc-weak-recommendations" class="nav-link" data-scroll-target="#weak-recommendations"><span class="header-section-number">17.12</span> Weak Recommendations</a></li>
+  <li><a href="#recommendation-and-authority" id="toc-recommendation-and-authority" class="nav-link" data-scroll-target="#recommendation-and-authority"><span class="header-section-number">17.13</span> Recommendation and Authority</a></li>
+  <li><a href="#individual-decision-making" id="toc-individual-decision-making" class="nav-link" data-scroll-target="#individual-decision-making"><span class="header-section-number">17.14</span> Individual Decision-Making</a></li>
+  <li><a href="#inner-speech-and-decision-quality" id="toc-inner-speech-and-decision-quality" class="nav-link" data-scroll-target="#inner-speech-and-decision-quality"><span class="header-section-number">17.15</span> Inner Speech and Decision Quality</a></li>
+  <li><a href="#collective-decision-making" id="toc-collective-decision-making" class="nav-link" data-scroll-target="#collective-decision-making"><span class="header-section-number">17.16</span> Collective Decision-Making</a></li>
+  <li><a href="#decision-owner" id="toc-decision-owner" class="nav-link" data-scroll-target="#decision-owner"><span class="header-section-number">17.17</span> Decision Owner</a></li>
+  <li><a href="#decision-rights-and-input-rights" id="toc-decision-rights-and-input-rights" class="nav-link" data-scroll-target="#decision-rights-and-input-rights"><span class="header-section-number">17.18</span> Decision Rights and Input Rights</a></li>
+  <li><a href="#decision-criteria-in-groups" id="toc-decision-criteria-in-groups" class="nav-link" data-scroll-target="#decision-criteria-in-groups"><span class="header-section-number">17.19</span> Decision Criteria in Groups</a></li>
+  <li><a href="#objections" id="toc-objections" class="nav-link" data-scroll-target="#objections"><span class="header-section-number">17.20</span> Objections</a></li>
+  <li><a href="#consensus-and-consent" id="toc-consensus-and-consent" class="nav-link" data-scroll-target="#consensus-and-consent"><span class="header-section-number">17.21</span> Consensus and Consent</a></li>
+  <li><a href="#decision-records" id="toc-decision-records" class="nav-link" data-scroll-target="#decision-records"><span class="header-section-number">17.22</span> Decision Records</a></li>
+  <li><a href="#decision-and-commitment" id="toc-decision-and-commitment" class="nav-link" data-scroll-target="#decision-and-commitment"><span class="header-section-number">17.23</span> Decision and Commitment</a></li>
+  <li><a href="#decision-under-uncertainty" id="toc-decision-under-uncertainty" class="nav-link" data-scroll-target="#decision-under-uncertainty"><span class="header-section-number">17.24</span> Decision Under Uncertainty</a></li>
+  <li><a href="#reversible-and-irreversible-decisions" id="toc-reversible-and-irreversible-decisions" class="nav-link" data-scroll-target="#reversible-and-irreversible-decisions"><span class="header-section-number">17.25</span> Reversible and Irreversible Decisions</a></li>
+  <li><a href="#decision-language-and-emotion" id="toc-decision-language-and-emotion" class="nav-link" data-scroll-target="#decision-language-and-emotion"><span class="header-section-number">17.26</span> Decision Language and Emotion</a></li>
+  <li><a href="#decision-language-and-influence" id="toc-decision-language-and-influence" class="nav-link" data-scroll-target="#decision-language-and-influence"><span class="header-section-number">17.27</span> Decision Language and Influence</a></li>
+  <li><a href="#decision-quality" id="toc-decision-quality" class="nav-link" data-scroll-target="#decision-quality"><span class="header-section-number">17.28</span> Decision Quality</a></li>
+  <li><a href="#practical-template-decision-frame" id="toc-practical-template-decision-frame" class="nav-link" data-scroll-target="#practical-template-decision-frame"><span class="header-section-number">17.29</span> Practical Template: Decision Frame</a></li>
+  <li><a href="#practical-template-option-presentation" id="toc-practical-template-option-presentation" class="nav-link" data-scroll-target="#practical-template-option-presentation"><span class="header-section-number">17.30</span> Practical Template: Option Presentation</a></li>
+  <li><a href="#practical-template-trade-off-statement" id="toc-practical-template-trade-off-statement" class="nav-link" data-scroll-target="#practical-template-trade-off-statement"><span class="header-section-number">17.31</span> Practical Template: Trade-Off Statement</a></li>
+  <li><a href="#practical-template-recommendation" id="toc-practical-template-recommendation" class="nav-link" data-scroll-target="#practical-template-recommendation"><span class="header-section-number">17.32</span> Practical Template: Recommendation</a></li>
+  <li><a href="#practical-template-collective-decision-closure" id="toc-practical-template-collective-decision-closure" class="nav-link" data-scroll-target="#practical-template-collective-decision-closure"><span class="header-section-number">17.33</span> Practical Template: Collective Decision Closure</a></li>
+  <li><a href="#failure-modes" id="toc-failure-modes" class="nav-link" data-scroll-target="#failure-modes"><span class="header-section-number">17.34</span> Failure Modes</a>
+  <ul class="collapse">
+  <li><a href="#undefined-decision-question" id="toc-undefined-decision-question" class="nav-link" data-scroll-target="#undefined-decision-question"><span class="header-section-number">17.34.1</span> Undefined Decision Question</a></li>
+  <li><a href="#false-binary" id="toc-false-binary" class="nav-link" data-scroll-target="#false-binary"><span class="header-section-number">17.34.2</span> False Binary</a></li>
+  <li><a href="#hidden-criteria" id="toc-hidden-criteria" class="nav-link" data-scroll-target="#hidden-criteria"><span class="header-section-number">17.34.3</span> Hidden Criteria</a></li>
+  <li><a href="#unnamed-trade-off" id="toc-unnamed-trade-off" class="nav-link" data-scroll-target="#unnamed-trade-off"><span class="header-section-number">17.34.4</span> Unnamed Trade-Off</a></li>
+  <li><a href="#weak-recommendation" id="toc-weak-recommendation" class="nav-link" data-scroll-target="#weak-recommendation"><span class="header-section-number">17.34.5</span> Weak Recommendation</a></li>
+  <li><a href="#recommendation-confused-with-decision" id="toc-recommendation-confused-with-decision" class="nav-link" data-scroll-target="#recommendation-confused-with-decision"><span class="header-section-number">17.34.6</span> Recommendation Confused With Decision</a></li>
+  <li><a href="#unclear-decision-owner" id="toc-unclear-decision-owner" class="nav-link" data-scroll-target="#unclear-decision-owner"><span class="header-section-number">17.34.7</span> Unclear Decision Owner</a></li>
+  <li><a href="#suppressed-objection" id="toc-suppressed-objection" class="nav-link" data-scroll-target="#suppressed-objection"><span class="header-section-number">17.34.8</span> Suppressed Objection</a></li>
+  <li><a href="#decision-without-commitment" id="toc-decision-without-commitment" class="nav-link" data-scroll-target="#decision-without-commitment"><span class="header-section-number">17.34.9</span> Decision Without Commitment</a></li>
+  <li><a href="#decision-without-record" id="toc-decision-without-record" class="nav-link" data-scroll-target="#decision-without-record"><span class="header-section-number">17.34.10</span> Decision Without Record</a></li>
+  <li><a href="#certainty-theater" id="toc-certainty-theater" class="nav-link" data-scroll-target="#certainty-theater"><span class="header-section-number">17.34.11</span> Certainty Theater</a></li>
+  <li><a href="#endless-analysis" id="toc-endless-analysis" class="nav-link" data-scroll-target="#endless-analysis"><span class="header-section-number">17.34.12</span> Endless Analysis</a></li>
+  </ul></li>
+  <li><a href="#minimal-operational-distinction" id="toc-minimal-operational-distinction" class="nav-link" data-scroll-target="#minimal-operational-distinction"><span class="header-section-number">17.35</span> Minimal Operational Distinction</a></li>
+  <li><a href="#chapter-summary" id="toc-chapter-summary" class="nav-link" data-scroll-target="#chapter-summary"><span class="header-section-number">17.36</span> Chapter Summary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./p6.html">Part VI — Language, Decision, and Influence</a></li><li class="breadcrumb-item"><a href="./cp16.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Language and Decision</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Language and Decision</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="decisions-are-made-through-language" class="level2" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="decisions-are-made-through-language"><span class="header-section-number">17.1</span> Decisions Are Made Through Language</h2>
+<p>A decision is not only a mental event.</p>
+<p>It is also a linguistic event.</p>
+<p>Before people decide, they must describe the situation, name the problem, define the goal, present the options, compare trade-offs, state criteria, express uncertainty, recommend a path, and commit to action.</p>
+<p>Even when a decision happens silently inside one person, it usually depends on language-like structures:</p>
+<pre><code>What is the problem?
+What are my options?
+What matters most?
+What happens if I choose this?
+What risk am I accepting?
+What should I do?</code></pre>
+<p>When a decision happens among people, language becomes even more central.</p>
+<p>A group cannot decide together unless the decision space becomes shared.</p>
+<p>People must know:</p>
+<ul>
+<li><p>what is being decided</p></li>
+<li><p>what options are available</p></li>
+<li><p>what criteria matter</p></li>
+<li><p>what trade-offs exist</p></li>
+<li><p>who has authority</p></li>
+<li><p>what recommendation is being made</p></li>
+<li><p>what commitment follows</p></li>
+</ul>
+<p>This chapter studies how language presents options, frames trade-offs, guides recommendation, and enters individual and collective decision-making.</p>
+<p>It continues the final movement of <strong>Pragmatic Language</strong>: language as a tool for organizing consequence in human systems.</p>
+<hr>
+</section>
+<section id="from-situation-to-decision" class="level2" data-number="17.2">
+<h2 data-number="17.2" class="anchored" data-anchor-id="from-situation-to-decision"><span class="header-section-number">17.2</span> From Situation to Decision</h2>
+<p>A decision begins when a situation is converted into a choice.</p>
+<p>Reality alone does not always present clear options.</p>
+<p>People may feel pressure, confusion, risk, desire, or conflict before they know what the decision actually is.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“The project is delayed.”</p>
+</blockquote>
+<p>This is a situation.</p>
+<p>It does not yet define the decision.</p>
+<p>Possible decisions include:</p>
+<ul>
+<li><p>Should we move the deadline?</p></li>
+<li><p>Should we reduce scope?</p></li>
+<li><p>Should we add people?</p></li>
+<li><p>Should we inform the client?</p></li>
+<li><p>Should we change the process?</p></li>
+<li><p>Should we stop the project?</p></li>
+<li><p>Should we accept the delay and protect quality?</p></li>
+</ul>
+<p>The same situation can produce different decision questions.</p>
+<p>Language creates the bridge from situation to decision.</p>
+<p>A strong decision frame says:</p>
+<pre><code>Given [situation],
+we need to decide [decision question],
+under [constraints],
+using [criteria].</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“Given that the project is delayed by two weeks, we need to decide whether to reduce scope, move the deadline, or add support, under the constraints of client trust, team capacity, and quality standard.”</p>
+</blockquote>
+<p>Now the situation has become a decision space.</p>
+<hr>
+</section>
+<section id="the-decision-question" class="level2" data-number="17.3">
+<h2 data-number="17.3" class="anchored" data-anchor-id="the-decision-question"><span class="header-section-number">17.3</span> The Decision Question</h2>
+<p>The first linguistic act in decision-making is defining the decision question.</p>
+<p>A poor decision question distorts the whole process.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“Should we work harder?”</p>
+</blockquote>
+<p>This question assumes effort is the main variable.</p>
+<p>But the real decision may be:</p>
+<blockquote class="blockquote">
+<p>“Should we reduce scope, change sequence, or add support?”</p>
+</blockquote>
+<p>Another poor question:</p>
+<blockquote class="blockquote">
+<p>“Should we launch or not launch?”</p>
+</blockquote>
+<p>This may be too binary.</p>
+<p>A better question:</p>
+<blockquote class="blockquote">
+<p>“Should we launch fully, delay launch, launch to a limited group, or launch only after the payment flow is tested?”</p>
+</blockquote>
+<p>The decision question determines the visible options.</p>
+<p>If the question is narrow, the decision space becomes narrow.</p>
+<p>If the question is vague, comparison becomes unstable.</p>
+<p>A strong decision question should define:</p>
+<pre><code>Object: What is being decided?
+Options: What kinds of choices are possible?
+Criteria: What matters in choosing?
+Constraints: What limits the decision?
+Time: When must the decision be made?
+Authority: Who decides?</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“We need to decide by Thursday whether to publish the chapter in its current form, revise it for one more day, or reduce the scope, using clarity, completeness, and timeline as criteria.”</p>
+</blockquote>
+<p>This question gives decision-making a structure.</p>
+<hr>
+</section>
+<section id="options-are-constructed" class="level2" data-number="17.4">
+<h2 data-number="17.4" class="anchored" data-anchor-id="options-are-constructed"><span class="header-section-number">17.4</span> Options Are Constructed</h2>
+<p>Options are not always found.</p>
+<p>Often, they are constructed through language.</p>
+<p>A person may begin with two apparent choices:</p>
+<blockquote class="blockquote">
+<p>“Stay or leave.”</p>
+</blockquote>
+<p>But language can expand the space:</p>
+<ul>
+<li><p>stay under current conditions</p></li>
+<li><p>stay but renegotiate responsibilities</p></li>
+<li><p>stay temporarily while preparing an exit</p></li>
+<li><p>leave immediately</p></li>
+<li><p>leave after completing a transition</p></li>
+<li><p>move to a different role</p></li>
+<li><p>reduce involvement without fully leaving</p></li>
+</ul>
+<p>The original decision appears binary.</p>
+<p>Language reveals a larger option space.</p>
+<p>This is one of the most important functions of decision language:</p>
+<blockquote class="blockquote">
+<p>It prevents the mind from mistaking the first visible options for the only possible options.</p>
+</blockquote>
+<p>In decision-making, the speaker should ask:</p>
+<pre><code>What options are currently visible?
+What options are hidden?
+Are we trapped in a false binary?
+Can the decision be decomposed?
+Can we create a staged option?
+Can we combine parts of different options?</code></pre>
+<p>Good decision language expands possibility before narrowing choice.</p>
+<hr>
+</section>
+<section id="naming-options" class="level2" data-number="17.5">
+<h2 data-number="17.5" class="anchored" data-anchor-id="naming-options"><span class="header-section-number">17.5</span> Naming Options</h2>
+<p>An option becomes thinkable when it is named.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“We could delay.”</p>
+</blockquote>
+<p>This names one option.</p>
+<p>But it is vague.</p>
+<p>A stronger option name:</p>
+<blockquote class="blockquote">
+<p>“Delay the launch by two weeks and use that time to fix the payment flow and retest onboarding.”</p>
+</blockquote>
+<p>Now the option has operational meaning.</p>
+<p>Options should be named with enough detail to support comparison.</p>
+<p>Weak option names:</p>
+<pre><code>Option A: Launch.
+Option B: Delay.
+Option C: Fix it.</code></pre>
+<p>Stronger option names:</p>
+<pre><code>Option A: Launch on schedule with known payment risk.
+Option B: Delay full launch by two weeks until payment is tested.
+Option C: Launch to existing users only while blocking new-user purchase flow until fixed.</code></pre>
+<p>The stronger options are more comparable because each contains action, scope, condition, and consequence.</p>
+<p>A named option should answer:</p>
+<pre><code>What action is taken?
+What is included?
+What is excluded?
+When does it happen?
+What risk does it accept?
+What result does it aim for?</code></pre>
+<hr>
+</section>
+<section id="false-binaries" class="level2" data-number="17.6">
+<h2 data-number="17.6" class="anchored" data-anchor-id="false-binaries"><span class="header-section-number">17.6</span> False Binaries</h2>
+<p>A false binary occurs when language presents a decision as if only two choices exist, even though more possibilities are available.</p>
+<p>Examples:</p>
+<blockquote class="blockquote">
+<p>“Should we prioritize speed or quality?”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Should we be strict or kind?”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Should we stay or quit?”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Should we build or buy?”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Should we launch or delay?”</p>
+</blockquote>
+<p>Sometimes a binary is real.</p>
+<p>But often it hides variation.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“Speed or quality?”</p>
+</blockquote>
+<p>Possible expanded options:</p>
+<ul>
+<li><p>move fast on low-risk components</p></li>
+<li><p>slow down on high-risk components</p></li>
+<li><p>reduce scope to preserve quality</p></li>
+<li><p>launch a minimal reliable version</p></li>
+<li><p>create staged release</p></li>
+<li><p>automate review to increase speed without reducing quality</p></li>
+</ul>
+<p>The better decision question may be:</p>
+<blockquote class="blockquote">
+<p>“Where can we move faster without compromising the quality standard that matters most?”</p>
+</blockquote>
+<p>This converts opposition into design.</p>
+<p>False binaries are powerful because they create emotional pressure.</p>
+<p>They make one side appear to deny the other.</p>
+<p>Good decision language asks:</p>
+<blockquote class="blockquote">
+<p>Is this truly either-or, or can the decision space be redesigned?</p>
+</blockquote>
+<hr>
+</section>
+<section id="criteria" class="level2" data-number="17.7">
+<h2 data-number="17.7" class="anchored" data-anchor-id="criteria"><span class="header-section-number">17.7</span> Criteria</h2>
+<p>Options cannot be compared without criteria.</p>
+<p>Criteria define what matters in the decision.</p>
+<p>For example, when choosing between options, possible criteria include:</p>
+<ul>
+<li><p>speed</p></li>
+<li><p>cost</p></li>
+<li><p>quality</p></li>
+<li><p>risk</p></li>
+<li><p>fairness</p></li>
+<li><p>reliability</p></li>
+<li><p>reversibility</p></li>
+<li><p>learning value</p></li>
+<li><p>strategic fit</p></li>
+<li><p>emotional cost</p></li>
+<li><p>legal safety</p></li>
+<li><p>user impact</p></li>
+<li><p>long-term sustainability</p></li>
+</ul>
+<p>Without criteria, decisions collapse into preference, power, habit, or impulse.</p>
+<p>A person says:</p>
+<blockquote class="blockquote">
+<p>“I like option A.”</p>
+</blockquote>
+<p>But why?</p>
+<p>A stronger statement:</p>
+<blockquote class="blockquote">
+<p>“I prefer option A because it reduces launch risk while preserving the core feature.”</p>
+</blockquote>
+<p>This names criteria:</p>
+<pre><code>risk reduction
+core feature preservation</code></pre>
+<p>Decision language should make criteria explicit.</p>
+<p>Useful forms include:</p>
+<pre><code>The main criterion is [criterion].
+The secondary criterion is [criterion].
+We are optimizing for [value].
+We are willing to sacrifice [value] to protect [higher value].
+This option is better under [criterion], but worse under [criterion].</code></pre>
+<p>Criteria turn preference into judgment.</p>
+<hr>
+</section>
+<section id="criteria-conflict" class="level2" data-number="17.8">
+<h2 data-number="17.8" class="anchored" data-anchor-id="criteria-conflict"><span class="header-section-number">17.8</span> Criteria Conflict</h2>
+<p>Real decisions often involve competing criteria.</p>
+<p>One option is faster but riskier.<br>
+Another is safer but slower.<br>
+One is cheaper but less durable.<br>
+Another is fairer but harder to execute.<br>
+One preserves autonomy but reduces coordination.<br>
+Another improves alignment but limits flexibility.</p>
+<p>This is where trade-offs appear.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“Option A is faster, but it increases quality risk.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Option B protects quality, but it delays market entry.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Option C reduces risk by narrowing scope, but it gives users a smaller first version.”</p>
+</blockquote>
+<p>Such statements are decision-quality language.</p>
+<p>They do not pretend one option is purely good.</p>
+<p>They expose the structure of choice.</p>
+<p>A good decision does not eliminate all costs.</p>
+<p>It chooses which cost to accept.</p>
+<hr>
+</section>
+<section id="trade-off-framing" class="level2" data-number="17.9">
+<h2 data-number="17.9" class="anchored" data-anchor-id="trade-off-framing"><span class="header-section-number">17.9</span> Trade-Off Framing</h2>
+<p>A trade-off is a structured conflict between values, goals, or criteria that cannot all be maximized at once.</p>
+<p>Trade-off language asks:</p>
+<pre><code>What do we gain?
+What do we lose?
+What cost are we accepting?
+What value are we protecting?
+What risk are we reducing?
+What risk are we creating?</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“If we launch this week, we gain market timing but accept payment reliability risk. If we delay, we protect user trust but lose part of the campaign window.”</p>
+</blockquote>
+<p>This statement makes the decision visible.</p>
+<p>It prevents vague argument.</p>
+<p>Instead of saying:</p>
+<blockquote class="blockquote">
+<p>“Launch is good.”</p>
+</blockquote>
+<p>or:</p>
+<blockquote class="blockquote">
+<p>“Delay is safer.”</p>
+</blockquote>
+<p>it shows what each option does.</p>
+<p>Trade-off language helps people move from opinion to comparison.</p>
+<hr>
+</section>
+<section id="hidden-trade-offs" class="level2" data-number="17.10">
+<h2 data-number="17.10" class="anchored" data-anchor-id="hidden-trade-offs"><span class="header-section-number">17.10</span> Hidden Trade-Offs</h2>
+<p>Some trade-offs are hidden because language presents one side as obviously good.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“We need to increase productivity.”</p>
+</blockquote>
+<p>This sounds positive.</p>
+<p>But the hidden trade-off may involve:</p>
+<ul>
+<li><p>employee burnout</p></li>
+<li><p>reduced quality</p></li>
+<li><p>less learning time</p></li>
+<li><p>weaker documentation</p></li>
+<li><p>higher error rate</p></li>
+<li><p>lower creativity</p></li>
+</ul>
+<p>Another example:</p>
+<blockquote class="blockquote">
+<p>“We need to simplify the product.”</p>
+</blockquote>
+<p>This may improve usability, but may remove power-user capability.</p>
+<p>Another:</p>
+<blockquote class="blockquote">
+<p>“We need more control.”</p>
+</blockquote>
+<p>This may improve consistency, but reduce local autonomy.</p>
+<p>Decision language should surface hidden trade-offs.</p>
+<p>A useful question is:</p>
+<blockquote class="blockquote">
+<p>What does this option make worse while making something better?</p>
+</blockquote>
+<p>No serious option improves everything.</p>
+<p>If language makes it sound like one option has no cost, the trade-off is probably hidden.</p>
+<hr>
+</section>
+<section id="recommendation" class="level2" data-number="17.11">
+<h2 data-number="17.11" class="anchored" data-anchor-id="recommendation"><span class="header-section-number">17.11</span> Recommendation</h2>
+<p>A recommendation is a judgment that points toward action.</p>
+<p>It is stronger than an opinion.</p>
+<p>An opinion says:</p>
+<blockquote class="blockquote">
+<p>“I like this option.”</p>
+</blockquote>
+<p>A recommendation says:</p>
+<blockquote class="blockquote">
+<p>“Given the criteria and evidence, I think we should choose this option.”</p>
+</blockquote>
+<p>A strong recommendation includes:</p>
+<pre><code>Decision question
+Recommended option
+Reason
+Criteria
+Trade-off
+Risk
+Condition
+Next action</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“I recommend delaying the launch by two weeks. The reason is that the payment bug affects new users at the first purchase moment, which creates a trust risk. This sacrifices part of the campaign window, but protects the core user experience. If engineering confirms the fix earlier, we can revisit the timeline.”</p>
+</blockquote>
+<p>This recommendation is strong because it includes:</p>
+<ul>
+<li><p>action: delay launch</p></li>
+<li><p>reason: payment bug</p></li>
+<li><p>criterion: user trust</p></li>
+<li><p>trade-off: campaign window</p></li>
+<li><p>condition: earlier fix may change decision</p></li>
+</ul>
+<p>A recommendation should not merely push a choice.</p>
+<p>It should show why that choice is justified.</p>
+<hr>
+</section>
+<section id="weak-recommendations" class="level2" data-number="17.12">
+<h2 data-number="17.12" class="anchored" data-anchor-id="weak-recommendations"><span class="header-section-number">17.12</span> Weak Recommendations</h2>
+<p>Weak recommendations often fail because they are vague, unsupported, or unclear in force.</p>
+<p>Examples:</p>
+<blockquote class="blockquote">
+<p>“I think option B is better.”</p>
+</blockquote>
+<p>Why?</p>
+<blockquote class="blockquote">
+<p>“Maybe we should delay.”</p>
+</blockquote>
+<p>Is this a suggestion, concern, or strong recommendation?</p>
+<blockquote class="blockquote">
+<p>“This seems risky.”</p>
+</blockquote>
+<p>What action follows?</p>
+<blockquote class="blockquote">
+<p>“I would go with the first one.”</p>
+</blockquote>
+<p>According to what criteria?</p>
+<p>A stronger recommendation uses explicit structure:</p>
+<blockquote class="blockquote">
+<p>“I recommend option B because it best balances delivery speed and reliability. It is slower than option A, but it avoids the unresolved payment risk that could damage first-user trust.”</p>
+</blockquote>
+<p>This makes the judgment discussable.</p>
+<p>Others can challenge the criteria, evidence, or trade-off.</p>
+<p>That is a strength, not a weakness.</p>
+<p>A recommendation that cannot be examined is not decision-quality language.</p>
+<hr>
+</section>
+<section id="recommendation-and-authority" class="level2" data-number="17.13">
+<h2 data-number="17.13" class="anchored" data-anchor-id="recommendation-and-authority"><span class="header-section-number">17.13</span> Recommendation and Authority</h2>
+<p>A recommendation is not always a decision.</p>
+<p>This distinction matters.</p>
+<p>A person may recommend, but not decide.</p>
+<p>Another person may decide, but should consider recommendations.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“My recommendation is to delay launch, but the final decision belongs to the product lead.”</p>
+</blockquote>
+<p>This sentence clarifies authority.</p>
+<p>Without this distinction, people may misread the force of speech.</p>
+<p>A recommendation from a senior person may be heard as a decision.</p>
+<p>A recommendation from a junior person may be dismissed as preference.</p>
+<p>Decision language should mark authority:</p>
+<pre><code>This is my suggestion.
+This is my recommendation.
+This is my decision.
+This is open for discussion.
+This is final.
+This requires approval from [person/role].</code></pre>
+<p>Authority clarity prevents confusion between advice, influence, and decision.</p>
+<hr>
+</section>
+<section id="individual-decision-making" class="level2" data-number="17.14">
+<h2 data-number="17.14" class="anchored" data-anchor-id="individual-decision-making"><span class="header-section-number">17.14</span> Individual Decision-Making</h2>
+<p>Individual decisions also depend on language.</p>
+<p>A person thinking alone still frames options internally.</p>
+<p>They may say:</p>
+<blockquote class="blockquote">
+<p>“I have no choice.”</p>
+</blockquote>
+<p>This language closes the decision space.</p>
+<p>A more accurate statement may be:</p>
+<blockquote class="blockquote">
+<p>“I dislike all available options, but I still have choices among costs.”</p>
+</blockquote>
+<p>Another person may say:</p>
+<blockquote class="blockquote">
+<p>“I must succeed.”</p>
+</blockquote>
+<p>This creates pressure, but may not define action.</p>
+<p>A better decision language:</p>
+<blockquote class="blockquote">
+<p>“My goal is to improve IELTS speaking within three months. The criteria are daily output, feedback quality, and measurable progress. The options are self-study, tutor feedback, recording practice, or structured speaking drills. I will choose the plan that gives the highest feedback density.”</p>
+</blockquote>
+<p>This turns anxiety into decision architecture.</p>
+<p>Individual decision-making improves when internal language becomes structured.</p>
+<hr>
+</section>
+<section id="inner-speech-and-decision-quality" class="level2" data-number="17.15">
+<h2 data-number="17.15" class="anchored" data-anchor-id="inner-speech-and-decision-quality"><span class="header-section-number">17.15</span> Inner Speech and Decision Quality</h2>
+<p>People often make poor decisions because their inner speech is vague.</p>
+<p>Examples:</p>
+<blockquote class="blockquote">
+<p>“This feels wrong.”</p>
+</blockquote>
+<p>Useful signal, but incomplete.</p>
+<blockquote class="blockquote">
+<p>“I don’t know what to do.”</p>
+</blockquote>
+<p>True, but not yet structured.</p>
+<blockquote class="blockquote">
+<p>“Everything is risky.”</p>
+</blockquote>
+<p>Too broad.</p>
+<blockquote class="blockquote">
+<p>“I should be more disciplined.”</p>
+</blockquote>
+<p>Too abstract.</p>
+<p>Better internal language asks:</p>
+<pre><code>What exactly is the decision?
+What options do I have?
+What matters most?
+What information is missing?
+What cost can I accept?
+What cost can I not accept?
+What is reversible?
+What is the next small decision?</code></pre>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“The decision is not my whole future. The immediate decision is whether to spend the next eight weeks focused mainly on IELTS or divide attention with other projects.”</p>
+</blockquote>
+<p>This narrows the decision.</p>
+<p>Good decision language often reduces emotional overload by defining the actual decision unit.</p>
+<hr>
+</section>
+<section id="collective-decision-making" class="level2" data-number="17.16">
+<h2 data-number="17.16" class="anchored" data-anchor-id="collective-decision-making"><span class="header-section-number">17.16</span> Collective Decision-Making</h2>
+<p>Collective decisions require language to produce shared decision structure.</p>
+<p>A group must clarify:</p>
+<pre><code>Decision owner
+Decision question
+Available options
+Criteria
+Evidence
+Trade-offs
+Risks
+Recommendation
+Objections
+Final decision
+Commitments
+Review point</code></pre>
+<p>Without this structure, a group may talk extensively but not decide.</p>
+<p>Common group failures include:</p>
+<ul>
+<li><p>unclear decision owner</p></li>
+<li><p>endless discussion without criteria</p></li>
+<li><p>hidden disagreement</p></li>
+<li><p>false consensus</p></li>
+<li><p>unspoken authority</p></li>
+<li><p>options not fully named</p></li>
+<li><p>trade-offs avoided</p></li>
+<li><p>no final statement of decision</p></li>
+<li><p>no record of who owns action</p></li>
+</ul>
+<p>A strong collective decision process uses language to make each layer explicit.</p>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“We are deciding whether to launch Friday or delay. The decision owner is Mei. The criteria are user trust, technical readiness, and campaign timing. The current recommendation is to delay by one week. Before Mei decides, we need to hear any objections.”</p>
+</blockquote>
+<p>This turns discussion into decision process.</p>
+<hr>
+</section>
+<section id="decision-owner" class="level2" data-number="17.17">
+<h2 data-number="17.17" class="anchored" data-anchor-id="decision-owner"><span class="header-section-number">17.17</span> Decision Owner</h2>
+<p>A decision owner is the person or role responsible for making the final decision.</p>
+<p>Without a decision owner, discussion may become endless.</p>
+<p>A group may think it is deciding collectively, but no one knows when the decision is final.</p>
+<p>Decision owner language includes:</p>
+<pre><code>Who has final authority?
+Who provides input?
+Who must be consulted?
+Who must be informed?
+Who executes after the decision?</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“The product lead owns the final launch decision. Engineering provides technical risk assessment, support provides customer impact, and leadership approves any delay beyond one week.”</p>
+</blockquote>
+<p>This distinguishes roles.</p>
+<p>Not everyone who contributes to a decision owns the decision.</p>
+<p>This clarification prevents conflict after the fact.</p>
+<hr>
+</section>
+<section id="decision-rights-and-input-rights" class="level2" data-number="17.18">
+<h2 data-number="17.18" class="anchored" data-anchor-id="decision-rights-and-input-rights"><span class="header-section-number">17.18</span> Decision Rights and Input Rights</h2>
+<p>Decision rights and input rights are different.</p>
+<p>Input right means:</p>
+<blockquote class="blockquote">
+<p>You have the right to be heard.</p>
+</blockquote>
+<p>Decision right means:</p>
+<blockquote class="blockquote">
+<p>You have the authority to decide.</p>
+</blockquote>
+<p>Confusing these creates resentment.</p>
+<p>A person may think:</p>
+<blockquote class="blockquote">
+<p>“I was asked for input, so my preference should control the decision.”</p>
+</blockquote>
+<p>But the actual structure may be:</p>
+<blockquote class="blockquote">
+<p>“Your input matters, but someone else decides.”</p>
+</blockquote>
+<p>This should be stated clearly.</p>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“I want your input on the risk, but I will make the final decision after hearing engineering and support.”</p>
+</blockquote>
+<p>Or:</p>
+<blockquote class="blockquote">
+<p>“This is a shared decision. We will not proceed unless both teams agree.”</p>
+</blockquote>
+<p>Different decision structures require different language.</p>
+<p>Clarity about decision rights prevents false expectations.</p>
+<hr>
+</section>
+<section id="decision-criteria-in-groups" class="level2" data-number="17.19">
+<h2 data-number="17.19" class="anchored" data-anchor-id="decision-criteria-in-groups"><span class="header-section-number">17.19</span> Decision Criteria in Groups</h2>
+<p>Groups often disagree because they use different criteria.</p>
+<p>Engineering prioritizes reliability.<br>
+Marketing prioritizes timing.<br>
+Finance prioritizes cost.<br>
+Support prioritizes customer impact.<br>
+Leadership prioritizes strategic positioning.<br>
+Users prioritize usefulness and trust.</p>
+<p>If criteria remain implicit, people may accuse each other of being irrational.</p>
+<p>But they may simply be optimizing different values.</p>
+<p>A useful group phrase:</p>
+<blockquote class="blockquote">
+<p>“Before comparing options, let us agree on the criteria.”</p>
+</blockquote>
+<p>Another:</p>
+<blockquote class="blockquote">
+<p>“It sounds like we are using different criteria: speed, reliability, and customer trust. Which one controls this decision?”</p>
+</blockquote>
+<p>Criteria language turns value conflict into structured comparison.</p>
+<hr>
+</section>
+<section id="objections" class="level2" data-number="17.20">
+<h2 data-number="17.20" class="anchored" data-anchor-id="objections"><span class="header-section-number">17.20</span> Objections</h2>
+<p>A decision process must make room for objections.</p>
+<p>An objection is not merely negativity.</p>
+<p>It may reveal risk, missing information, hidden cost, or ethical concern.</p>
+<p>Useful objection language:</p>
+<pre><code>My objection is [specific objection].
+It matters because [reason].
+If we address [condition], I can support the decision.
+If we do not address it, the risk is [risk].</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“My objection is that the payment flow has not been tested with new users. It matters because this is the first trust moment. If we test and confirm the fix by Thursday, I can support the launch. If not, I recommend delay.”</p>
+</blockquote>
+<p>This is a high-quality objection.</p>
+<p>It is specific, conditional, and decision-relevant.</p>
+<p>Bad objection language is vague:</p>
+<blockquote class="blockquote">
+<p>“I just don’t feel good about this.”</p>
+</blockquote>
+<p>This may contain a real signal, but it needs structure.</p>
+<p>Better:</p>
+<blockquote class="blockquote">
+<p>“I do not feel comfortable because the main dependency is unconfirmed. My concern is delivery risk.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="consensus-and-consent" class="level2" data-number="17.21">
+<h2 data-number="17.21" class="anchored" data-anchor-id="consensus-and-consent"><span class="header-section-number">17.21</span> Consensus and Consent</h2>
+<p>Collective decisions may use different agreement models.</p>
+<p>Consensus means everyone actively agrees.</p>
+<p>Consent means no one has a blocking objection.</p>
+<p>Authority decision means one person decides after input.</p>
+<p>Majority decision means the group votes.</p>
+<p>Expert decision means the most qualified role decides.</p>
+<p>Each model requires different language.</p>
+<p>Consensus:</p>
+<blockquote class="blockquote">
+<p>“Do we all support this option?”</p>
+</blockquote>
+<p>Consent:</p>
+<blockquote class="blockquote">
+<p>“Does anyone have a blocking objection?”</p>
+</blockquote>
+<p>Authority decision:</p>
+<blockquote class="blockquote">
+<p>“I will make the decision after hearing input.”</p>
+</blockquote>
+<p>Majority decision:</p>
+<blockquote class="blockquote">
+<p>“We will vote after discussing options.”</p>
+</blockquote>
+<p>Expert decision:</p>
+<blockquote class="blockquote">
+<p>“Engineering will decide whether the system is technically ready.”</p>
+</blockquote>
+<p>If the decision model is unclear, people may feel betrayed.</p>
+<p>They may think the process promised consensus when it only asked for input.</p>
+<p>Decision language must name the agreement model.</p>
+<hr>
+</section>
+<section id="decision-records" class="level2" data-number="17.22">
+<h2 data-number="17.22" class="anchored" data-anchor-id="decision-records"><span class="header-section-number">17.22</span> Decision Records</h2>
+<p>A decision should be recorded when future coordination depends on it.</p>
+<p>A decision record prevents later reinterpretation.</p>
+<p>A basic decision record includes:</p>
+<pre><code>Decision:
+Reason:
+Options considered:
+Criteria:
+Trade-off accepted:
+Risks:
+Owner:
+Next action:
+Review point:</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“Decision: Delay launch by one week. Reason: payment flow is not reliable for new users. Options considered: launch on time, delay one week, limited launch. Criteria: user trust, technical readiness, campaign timing. Trade-off accepted: lose one week of campaign timing to protect first-purchase reliability. Owner: product lead. Next action: engineering fixes and tests payment flow by Thursday. Review point: Friday morning.”</p>
+</blockquote>
+<p>This kind of language stabilizes collective memory.</p>
+<p>It prevents people from later saying:</p>
+<blockquote class="blockquote">
+<p>“I thought we delayed for marketing reasons.”</p>
+</blockquote>
+<p>or:</p>
+<blockquote class="blockquote">
+<p>“I thought the delay was optional.”</p>
+</blockquote>
+<p>Decision records preserve the rationale behind the decision.</p>
+<hr>
+</section>
+<section id="decision-and-commitment" class="level2" data-number="17.23">
+<h2 data-number="17.23" class="anchored" data-anchor-id="decision-and-commitment"><span class="header-section-number">17.23</span> Decision and Commitment</h2>
+<p>A decision is incomplete until it produces commitment.</p>
+<p>People often decide in principle but fail to commit in action.</p>
+<p>Weak:</p>
+<blockquote class="blockquote">
+<p>“We should revise the chapter.”</p>
+</blockquote>
+<p>Strong:</p>
+<blockquote class="blockquote">
+<p>“Decision: we will revise the chapter. I will rewrite the structure section tonight, you will review examples tomorrow, and the final version will be checked Friday.”</p>
+</blockquote>
+<p>The decision becomes operational only when it defines:</p>
+<ul>
+<li><p>task</p></li>
+<li><p>owner</p></li>
+<li><p>standard</p></li>
+<li><p>deadline</p></li>
+<li><p>checkpoint</p></li>
+</ul>
+<p>Otherwise, the decision remains symbolic.</p>
+<p>Decision language should ask:</p>
+<blockquote class="blockquote">
+<p>What changes because we decided this?</p>
+</blockquote>
+<p>If nothing changes, the decision may not yet be real.</p>
+<hr>
+</section>
+<section id="decision-under-uncertainty" class="level2" data-number="17.24">
+<h2 data-number="17.24" class="anchored" data-anchor-id="decision-under-uncertainty"><span class="header-section-number">17.24</span> Decision Under Uncertainty</h2>
+<p>Many decisions must be made before certainty is available.</p>
+<p>Language must represent uncertainty without paralyzing action.</p>
+<p>Useful forms include:</p>
+<pre><code>We know [known].
+We do not know [unknown].
+The main uncertainty is [uncertainty].
+The risk if we are wrong is [consequence].
+The reversible part is [reversible].
+The irreversible part is [irreversible].
+Given this, I recommend [action].</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“We know the payment issue affects some new users. We do not yet know the full percentage. The main uncertainty is whether the fix will hold under real traffic. The risk if we are wrong is loss of trust at purchase. Given this, I recommend delaying full launch but testing with a small controlled group.”</p>
+</blockquote>
+<p>This is mature decision language.</p>
+<p>It does not demand certainty.</p>
+<p>It structures uncertainty.</p>
+<hr>
+</section>
+<section id="reversible-and-irreversible-decisions" class="level2" data-number="17.25">
+<h2 data-number="17.25" class="anchored" data-anchor-id="reversible-and-irreversible-decisions"><span class="header-section-number">17.25</span> Reversible and Irreversible Decisions</h2>
+<p>Decision language should distinguish reversible and irreversible choices.</p>
+<p>A reversible decision can be adjusted later.</p>
+<p>An irreversible or hard-to-reverse decision requires more care.</p>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“This choice is reversible. We can test the new layout for one week and revert if metrics decline.”</p>
+</blockquote>
+<p>Another:</p>
+<blockquote class="blockquote">
+<p>“This choice is hard to reverse because once we announce the launch date publicly, changing it will affect customer trust.”</p>
+</blockquote>
+<p>Reversibility changes decision threshold.</p>
+<p>A reversible option may justify faster action.</p>
+<p>An irreversible option requires stronger evidence and broader alignment.</p>
+<p>A useful phrase:</p>
+<blockquote class="blockquote">
+<p>“Because this decision is reversible, we can move with limited evidence and monitor.”</p>
+</blockquote>
+<p>or:</p>
+<blockquote class="blockquote">
+<p>“Because this decision is hard to reverse, we need stronger confidence before committing.”</p>
+</blockquote>
+<p>This prevents over-analysis of small decisions and under-analysis of serious ones.</p>
+<hr>
+</section>
+<section id="decision-language-and-emotion" class="level2" data-number="17.26">
+<h2 data-number="17.26" class="anchored" data-anchor-id="decision-language-and-emotion"><span class="header-section-number">17.26</span> Decision Language and Emotion</h2>
+<p>Decisions often carry emotion.</p>
+<p>Fear may frame all options as dangerous.</p>
+<p>Desire may frame one option as obviously right.</p>
+<p>Pressure may narrow the decision space.</p>
+<p>Shame may make refusal difficult.</p>
+<p>Anger may turn a trade-off into a moral battle.</p>
+<p>Language can either amplify emotion or structure it.</p>
+<p>Unstructured emotion:</p>
+<blockquote class="blockquote">
+<p>“This is impossible.”</p>
+</blockquote>
+<p>Structured decision language:</p>
+<blockquote class="blockquote">
+<p>“This feels overwhelming because the decision contains three separate issues: deadline, scope, and quality. Let us decide them one at a time.”</p>
+</blockquote>
+<p>Another:</p>
+<blockquote class="blockquote">
+<p>“I am anxious about this option, but the specific risk is financial exposure. Let us estimate that risk.”</p>
+</blockquote>
+<p>This does not deny emotion.</p>
+<p>It converts emotion into decision-relevant information.</p>
+<p>Emotion may signal value or risk.</p>
+<p>But decision language must translate emotion into structure.</p>
+<hr>
+</section>
+<section id="decision-language-and-influence" class="level2" data-number="17.27">
+<h2 data-number="17.27" class="anchored" data-anchor-id="decision-language-and-influence"><span class="header-section-number">17.27</span> Decision Language and Influence</h2>
+<p>Decision language influences people by shaping what options and criteria appear reasonable.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“Do we want to be bold or stay afraid?”</p>
+</blockquote>
+<p>This frames one option as courage and the other as fear.</p>
+<p>It pressures the decision emotionally.</p>
+<p>A more responsible frame:</p>
+<blockquote class="blockquote">
+<p>“Do we want to accept higher risk for faster growth, or choose a slower path with more validation?”</p>
+</blockquote>
+<p>This presents the actual trade-off.</p>
+<p>Influence becomes manipulative when decision language:</p>
+<ul>
+<li><p>hides options</p></li>
+<li><p>labels one option shamefully</p></li>
+<li><p>exaggerates certainty</p></li>
+<li><p>suppresses objections</p></li>
+<li><p>conceals cost</p></li>
+<li><p>creates false urgency</p></li>
+<li><p>confuses preference with necessity</p></li>
+<li><p>treats disagreement as disloyalty</p></li>
+</ul>
+<p>Responsible decision language protects the listener’s ability to judge.</p>
+<p>It does not merely push them toward agreement.</p>
+<hr>
+</section>
+<section id="decision-quality" class="level2" data-number="17.28">
+<h2 data-number="17.28" class="anchored" data-anchor-id="decision-quality"><span class="header-section-number">17.28</span> Decision Quality</h2>
+<p>A decision can be evaluated by the quality of the language that produced it.</p>
+<p>High-quality decision language:</p>
+<pre><code>defines the decision question
+names real options
+states criteria
+surfaces trade-offs
+marks uncertainty
+identifies decision authority
+invites relevant objections
+makes recommendation explicit
+records the decision
+assigns next action
+sets review point</code></pre>
+<p>Low-quality decision language:</p>
+<pre><code>uses vague options
+hides criteria
+forces false binaries
+avoids trade-offs
+suppresses uncertainty
+leaves authority unclear
+treats objections as disloyalty
+makes no clear recommendation
+ends without ownership
+creates no decision record</code></pre>
+<p>Decision quality is not only about the final choice.</p>
+<p>It is about the structure through which the choice was made.</p>
+<hr>
+</section>
+<section id="practical-template-decision-frame" class="level2" data-number="17.29">
+<h2 data-number="17.29" class="anchored" data-anchor-id="practical-template-decision-frame"><span class="header-section-number">17.29</span> Practical Template: Decision Frame</h2>
+<pre><code>Situation:
+[What is happening]
+
+Decision question:
+[What must be decided]
+
+Options:
+[Option A / Option B / Option C]
+
+Criteria:
+[What matters in choosing]
+
+Constraints:
+[What limits the choice]
+
+Decision owner:
+[Who decides]
+
+Timing:
+[When decision is needed]</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“Situation: the chapter is longer than expected. Decision question: should we keep all sections, shorten examples, or split the chapter? Options: keep full chapter, reduce examples, split into two chapters. Criteria: clarity, completeness, reader load, schedule. Constraint: the chapter must remain consistent with the volume structure. Decision owner: author. Timing: decide before final revision.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="practical-template-option-presentation" class="level2" data-number="17.30">
+<h2 data-number="17.30" class="anchored" data-anchor-id="practical-template-option-presentation"><span class="header-section-number">17.30</span> Practical Template: Option Presentation</h2>
+<pre><code>Option:
+[Name]
+
+What it does:
+[Action]
+
+Benefit:
+[What it improves]
+
+Cost:
+[What it sacrifices]
+
+Risk:
+[What may go wrong]
+
+Condition:
+[What must be true]
+
+Best if:
+[Situation where this option is strongest]</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“Option: delayed launch. What it does: moves launch by one week. Benefit: allows payment testing. Cost: loses part of campaign timing. Risk: reduces momentum. Condition: engineering must use the week to fix and verify the payment flow. Best if user trust matters more than immediate market timing.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="practical-template-trade-off-statement" class="level2" data-number="17.31">
+<h2 data-number="17.31" class="anchored" data-anchor-id="practical-template-trade-off-statement"><span class="header-section-number">17.31</span> Practical Template: Trade-Off Statement</h2>
+<pre><code>If we choose [Option A],
+we gain [benefit],
+but we accept [cost/risk].
+
+If we choose [Option B],
+we gain [benefit],
+but we accept [cost/risk].
+
+The deciding criterion should be [criterion].</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“If we launch now, we gain market timing, but we accept payment reliability risk. If we delay, we protect first-user trust, but we lose part of the campaign window. The deciding criterion should be whether first-purchase reliability is required for launch.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="practical-template-recommendation" class="level2" data-number="17.32">
+<h2 data-number="17.32" class="anchored" data-anchor-id="practical-template-recommendation"><span class="header-section-number">17.32</span> Practical Template: Recommendation</h2>
+<pre><code>I recommend [option].
+The reason is [reason].
+The main criterion is [criterion].
+The trade-off is [accepted cost].
+The risk is [risk].
+The condition is [condition].
+The next action is [action].</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“I recommend delaying launch by one week. The reason is that the payment bug affects new users at the first purchase moment. The main criterion is user trust. The trade-off is losing one week of campaign timing. The risk is reduced launch momentum. The condition is that engineering must complete and verify the fix during the delay. The next action is to confirm the revised launch date today.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="practical-template-collective-decision-closure" class="level2" data-number="17.33">
+<h2 data-number="17.33" class="anchored" data-anchor-id="practical-template-collective-decision-closure"><span class="header-section-number">17.33</span> Practical Template: Collective Decision Closure</h2>
+<pre><code>Decision:
+[What was decided]
+
+Reason:
+[Why]
+
+Decision owner:
+[Who decided]
+
+Trade-off accepted:
+[Cost accepted]
+
+Responsibilities:
+[Who does what]
+
+Open issues:
+[What remains unresolved]
+
+Review point:
+[When to revisit]</code></pre>
+<p>Example:</p>
+<blockquote class="blockquote">
+<p>“Decision: we will publish the chapter after one more revision. Reason: the main structure is complete, but the examples need sharpening. Decision owner: author. Trade-off accepted: publication is delayed by one day to improve clarity. Responsibilities: I revise examples, reviewer checks flow. Open issue: chapter length. Review point: tomorrow morning.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="failure-modes" class="level2" data-number="17.34">
+<h2 data-number="17.34" class="anchored" data-anchor-id="failure-modes"><span class="header-section-number">17.34</span> Failure Modes</h2>
+<section id="undefined-decision-question" class="level3" data-number="17.34.1">
+<h3 data-number="17.34.1" class="anchored" data-anchor-id="undefined-decision-question"><span class="header-section-number">17.34.1</span> Undefined Decision Question</h3>
+<p>People discuss extensively but do not know what is being decided.</p>
+</section>
+<section id="false-binary" class="level3" data-number="17.34.2">
+<h3 data-number="17.34.2" class="anchored" data-anchor-id="false-binary"><span class="header-section-number">17.34.2</span> False Binary</h3>
+<p>Language presents two options when more options exist.</p>
+</section>
+<section id="hidden-criteria" class="level3" data-number="17.34.3">
+<h3 data-number="17.34.3" class="anchored" data-anchor-id="hidden-criteria"><span class="header-section-number">17.34.3</span> Hidden Criteria</h3>
+<p>People argue over options while using different standards.</p>
+</section>
+<section id="unnamed-trade-off" class="level3" data-number="17.34.4">
+<h3 data-number="17.34.4" class="anchored" data-anchor-id="unnamed-trade-off"><span class="header-section-number">17.34.4</span> Unnamed Trade-Off</h3>
+<p>One option is presented as purely good, while its cost is hidden.</p>
+</section>
+<section id="weak-recommendation" class="level3" data-number="17.34.5">
+<h3 data-number="17.34.5" class="anchored" data-anchor-id="weak-recommendation"><span class="header-section-number">17.34.5</span> Weak Recommendation</h3>
+<p>The speaker expresses preference without reason, criteria, or action.</p>
+</section>
+<section id="recommendation-confused-with-decision" class="level3" data-number="17.34.6">
+<h3 data-number="17.34.6" class="anchored" data-anchor-id="recommendation-confused-with-decision"><span class="header-section-number">17.34.6</span> Recommendation Confused With Decision</h3>
+<p>Listeners treat advice as final decision, or treat final decision as mere suggestion.</p>
+</section>
+<section id="unclear-decision-owner" class="level3" data-number="17.34.7">
+<h3 data-number="17.34.7" class="anchored" data-anchor-id="unclear-decision-owner"><span class="header-section-number">17.34.7</span> Unclear Decision Owner</h3>
+<p>The group talks, but no one knows who decides.</p>
+</section>
+<section id="suppressed-objection" class="level3" data-number="17.34.8">
+<h3 data-number="17.34.8" class="anchored" data-anchor-id="suppressed-objection"><span class="header-section-number">17.34.8</span> Suppressed Objection</h3>
+<p>Concerns are treated as negativity rather than decision-relevant input.</p>
+</section>
+<section id="decision-without-commitment" class="level3" data-number="17.34.9">
+<h3 data-number="17.34.9" class="anchored" data-anchor-id="decision-without-commitment"><span class="header-section-number">17.34.9</span> Decision Without Commitment</h3>
+<p>A decision is stated, but no action, owner, or deadline follows.</p>
+</section>
+<section id="decision-without-record" class="level3" data-number="17.34.10">
+<h3 data-number="17.34.10" class="anchored" data-anchor-id="decision-without-record"><span class="header-section-number">17.34.10</span> Decision Without Record</h3>
+<p>People later remember different reasons, conditions, or responsibilities.</p>
+</section>
+<section id="certainty-theater" class="level3" data-number="17.34.11">
+<h3 data-number="17.34.11" class="anchored" data-anchor-id="certainty-theater"><span class="header-section-number">17.34.11</span> Certainty Theater</h3>
+<p>Language presents uncertain information as settled in order to move decision forward.</p>
+</section>
+<section id="endless-analysis" class="level3" data-number="17.34.12">
+<h3 data-number="17.34.12" class="anchored" data-anchor-id="endless-analysis"><span class="header-section-number">17.34.12</span> Endless Analysis</h3>
+<p>Language keeps opening more questions without defining the threshold for decision.</p>
+<hr>
+</section>
+</section>
+<section id="minimal-operational-distinction" class="level2" data-number="17.35">
+<h2 data-number="17.35" class="anchored" data-anchor-id="minimal-operational-distinction"><span class="header-section-number">17.35</span> Minimal Operational Distinction</h2>
+<p>The core distinction of this chapter is:</p>
+<pre><code>Facts describe the situation.
+Options define possible action.
+Criteria define what matters.
+Trade-offs define what cannot be maximized together.
+Recommendations guide judgment toward action.
+Decisions select a path.
+Commitments make the path real.</code></pre>
+<p>Language connects each layer.</p>
+<p>Without language, facts remain unorganized.</p>
+<p>With disciplined language, facts become decision structure.</p>
+<hr>
+</section>
+<section id="chapter-summary" class="level2" data-number="17.36">
+<h2 data-number="17.36" class="anchored" data-anchor-id="chapter-summary"><span class="header-section-number">17.36</span> Chapter Summary</h2>
+<p>Decision-making depends on language.</p>
+<p>Language defines the decision question, names options, expands or narrows the decision space, establishes criteria, frames trade-offs, expresses uncertainty, guides recommendation, clarifies authority, and converts decisions into commitments.</p>
+<p>A strong decision process does not merely ask:</p>
+<blockquote class="blockquote">
+<p>What should we choose?</p>
+</blockquote>
+<p>It asks:</p>
+<blockquote class="blockquote">
+<p>What exactly are we deciding?<br>
+What options are available?<br>
+What criteria matter?<br>
+What trade-offs are unavoidable?<br>
+Who decides?<br>
+What is recommended?<br>
+What commitment follows?</p>
+</blockquote>
+<p>Individual decisions improve when inner speech becomes structured.</p>
+<p>Collective decisions improve when decision questions, criteria, authority, objections, records, and next actions are made explicit.</p>
+<p>The central principle is:</p>
+<blockquote class="blockquote">
+<p>A decision is not only a choice.<br>
+It is a linguistic structure that turns reality into action.</p>
+</blockquote>
+<p>Language does not merely report decisions after they happen.</p>
+<p>Language helps create the decision space in which decisions become possible.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./p6.html" class="pagination-link" aria-label="Part VI — Language, Decision, and Influence">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Part VI — Language, Decision, and Influence</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./cp17.html" class="pagination-link" aria-label="Language and Influence">
+        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Language and Influence</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
